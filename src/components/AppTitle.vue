@@ -10,5 +10,12 @@ export default {
 </script>
 
 <template>
-  <h1>{{ titolo }}</h1>
+  <h2>{{ titolo }}</h2>
 </template>
+
+<style scoped>
+h2 {
+  font-size: 50px;
+  color: goldenrod;
+}
+</style>
